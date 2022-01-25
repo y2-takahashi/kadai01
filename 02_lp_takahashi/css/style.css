@@ -1,0 +1,396 @@
+/* ここから下に記載していく */
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__nav {
+    display: flex;
+}
+
+.header__nav li {
+    margin-left: 40px;
+}
+.fa{
+    margin: 5px 5px;
+}
+
+/* ---------- ここからメインビジュアル ---------- */
+.mainvisual {
+    height: 400px;
+    /* background-color: brown; */
+    background: url(../img/mainbg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+
+.mainvisual__title {
+    opacity: 0.8;
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding-top: 180px;
+}
+
+.mainvisual__subtitle {
+    opacity: 0.8;
+    letter-spacing: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn-wrapper{
+    margin: 20px 0;
+}
+.btn-wrapper p{
+    margin: 10px 0;
+}
+.btn{
+    padding: 8px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+.signup{
+    background-color: #239b76;
+    }
+.facebook{
+    background-color: #3b5998;
+
+}
+.twitter{
+    background-color: #55acee;
+}
+
+/* ---------- ここからAbout ---------- */
+.about {
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about__title {
+    font-size: 24px;
+    font-family: bold;
+    color: #ffd61a;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #dee7ec;
+}
+
+.about__subtitle {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.about__text {
+    margin-bottom: 15px;
+}
+
+
+.imgBox {
+    display: flex;
+}
+
+.imgBox p {
+    width: 25%
+}
+
+.imgBox p img {
+    width: 100%
+}
+
+/* ---------- ここからCourse ---------- */
+.course {
+    margin: 50px 0;
+    
+}
+
+.course__title {
+    width: 60%;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 2px solid #dee7ec;
+}
+
+.course__text {
+    font-size: 16px;
+    text-align: center;
+    margin: 0 70px;
+    margin-bottom: 20px;
+}
+
+.course__box {
+    margin-top: 50px;
+    background-color: #fafafa;
+}
+
+.course__inner {
+    display: flex;
+}
+
+.course__content {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.course__content__right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+
+
+.course__content img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.content__title {
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.content__text {
+    width: 100%;
+}
+
+.content__left {
+    width: 70%;
+    margin-left: 50px;
+}
+
+.content__right {
+    width: 70%;
+    margin-right: 50px;
+}
+
+/* ---------- ここからNEWS ---------- */
+.news {
+    text-align: center;
+    margin: 60px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news__title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffd61a; 
+    margin-bottom: 30px;
+}
+  
+.news__subtitle {
+    text-align: center;
+    line-height:18px;
+}
+
+.news__box {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.news__inner {
+    width: 300px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.news__inner:hover {
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+	transform: translateY(-0.1875em);
+}
+
+
+.news__date {
+    font-size: 14px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.news__text {
+    font-size: 14px;
+    text-align: left;
+    margin-top: 24px;
+}
+
+
+/* ---------- ここからMORE ---------- */
+.more {
+    margin-bottom: 60px;
+}
+
+.button_more {
+    margin: auto;
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+
+    text-align: center;
+    line-height: 60px;
+
+
+    color: white;
+    background-color: #ffd61a;
+}
+
+.button_more:hover {
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+	transform: translateY(-0.1875em);    
+}
+
+/* ---------- ここからACCESS ---------- */
+.access {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fafafa;
+    padding: 60px;
+}
+
+.access__box {
+}
+
+.access__title {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.access__text {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.access__map {
+}
+
+.access__table__box {
+    margin: 60px;
+    text-align: left;
+}
+
+.access__table {
+    margin: auto;
+
+}
+
+.access__table td {
+    padding: 10px;
+}
+
+
+/* ---------- ここからCONTACT ---------- */
+.contact {
+    margin: 50px 0;
+}
+
+.contact__title {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact__text1 {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.contact__text2 {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact__text3 {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+/* ---------- ここからCONTACT ---------- */
+.contactform {
+    text-align: left;
+}
+
+.contactform__box {
+}
+
+.contactform__table {
+    margin: auto;
+
+}
+
+.contactform__table td {
+    padding: 10px;
+    border: solid 1px #bfbfbf;
+
+    border-top-color: #bfbfbf;
+    border-bottom-color: #bfbfbf;
+    border-right: none; 
+    border-left: none; 
+
+    padding-left: 16px;
+    padding-right: 64px;
+}
+
+/* ---------- ここから送信 ---------- */
+.sent {
+    margin-top: 30px;
+    margin-bottom: 140px;
+}
+
+.button_sent {
+    margin: auto;
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+
+    text-align: center;
+    line-height: 60px;
+
+
+    color: white;
+    background-color: #ffd61a;
+}
+
+.button_sent:hover {
+	box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.25);
+	transform: translateY(-0.1875em);    
+}
+
+.footer {
+    margin: auto;
+    background-color: #707070;
+    padding: 30px;
+
+    font-size: 14px;
+    text-align: center;
+    color: #fff
+}
